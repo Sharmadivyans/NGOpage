@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Jan Manas Foundation</title>
+    <link rel=\"icon\" type=\"image/png\" href=\"logo.png\">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .page-content {
+            max-width: 800px;
+            margin: 10rem auto 4rem;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .form-control {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid rgba(0,0,0,0.1);
+            border-radius: var(--radius-lg);
+            background: rgba(255,255,255,0.8);
+            font-family: var(--font-body);
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s ease;
+        }
+        .form-control:focus {
+            border-color: var(--accent-primary);
+            box-shadow: 0 0 0 4px rgba(49, 215, 255, 0.2);
+            background: #fff;
+        }
+        .form-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--text-main);
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated NGO Background -->
+    <div class="ngo-nature-bg">
+        <div class="css-leaf" style="left: 10%; animation-delay: 0s;"></div>
+        <div class="css-heart" style="left: 30%; animation-delay: 5s;"></div>
+        <div class="css-leaf" style="left: 60%; animation-delay: 12s; transform: scale(0.6)"></div>
+        <div class="css-heart" style="left: 80%; animation-delay: 2s; transform: scale(1.5)"></div>
+        <div class="css-leaf" style="left: 45%; animation-delay: 18s;"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo"><img src="logo.png" alt="Jan Manas Foundation Logo"></a>
+            <div class="nav-right-container">
+                <div class="top-row">
+                    <a href="donate.html" class="btn-donate-solid">DONATE NOW</a>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Profile"><i class="fa-regular fa-user"></i></a>
+                        <a href="https://x.com/JanManasFdnNGO" target="_blank" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.facebook.com/share/18qwDYbKRt/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/jan_manas_foundation?igsh=dWd1djZsOHhkZTBi" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sheetal-sharma-at-jan-manas-foundation-12ba6a2a5" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="what-we-do.html">WHAT WE DO</a></li>
+                    <li><a href="media.html">MEDIA</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html" class="active">CONTACT US</a></li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section style="position: relative; padding: 10rem 0 6rem; overflow: hidden; min-height: 80vh; display: flex; align-items: center; justify-content: center;">
+        
+        <!-- Collage Background -->
+        <div class="collage-bg">
+            <img src="gallery_13.jpg" class="collage-img" style="top: 5%; left: 5%; transform: rotate(-10deg) scale(0.9);" alt="Background Photo">
+            <img src="gallery_14.jpg" class="collage-img" style="top: 15%; right: 8%; transform: rotate(15deg) scale(0.85);" alt="Background Photo">
+            <img src="gallery_15.jpg" class="collage-img" style="bottom: 10%; left: 10%; transform: rotate(12deg) scale(1.1);" alt="Background Photo">
+            <img src="gallery_16.jpg" class="collage-img" style="bottom: 5%; right: 15%; transform: rotate(-8deg) scale(0.95);" alt="Background Photo">
+            <img src="gallery_17.jpg" class="collage-img" style="top: 40%; left: -5%; transform: rotate(5deg) scale(1.2);" alt="Background Photo">
+            <img src="gallery_18.jpg" class="collage-img" style="top: 50%; right: -5%; transform: rotate(-12deg) scale(1);" alt="Background Photo">
+            <div class="collage-overlay"></div>
+        </div>
+
+        <div class="glass card glass-glow page-content fade-up tilt" style="position: relative; z-index: 10; margin: 0; max-width: 600px; padding: 4rem 3rem;">
+            <div class="tilt-inner">
+                <div class="section-subtitle mb-1">Get In Touch</div>
+                <h1 class="playfair text-gradient" style="font-size: 3rem; line-height: 1.1">Contact Us</h1>
+                <p class="mt-2" style="color: var(--text-muted)">
+                    Have any questions or care to join our efforts as a volunteer? Reach out to us, and we'll gladly respond.
+                </p>
+                <div style="margin-top: 3rem; text-align: left; background: rgba(255,255,255,0.5); padding: 2rem; border-radius: 12px; border: 1px solid rgba(255,255,255,0.8);">
+                    <p style="margin-bottom: 1.2rem; display: flex; align-items: center; gap: 15px;"><i class="fa-solid fa-envelope" style="color: var(--accent-primary); font-size: 1.5rem;"></i> <span style="font-weight: 500;">contact@janmanasfoundation.co.in</span></p>
+                    <p style="margin-bottom: 1.2rem; display: flex; align-items: center; gap: 15px;"><i class="fa-solid fa-phone" style="color: var(--accent-primary); font-size: 1.5rem;"></i> <span style="font-weight: 500;">+91 935 462 7100</span></p>
+                    <p style="display: flex; align-items: flex-start; gap: 15px;"><i class="fa-solid fa-location-dot" style="color: var(--accent-primary); font-size: 1.5rem;"></i> <span style="font-weight: 500; line-height: 1.4;">BE 384 STREET NUMBER 7<br>HARI NAGAR</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteer Form Section -->
+    <section class="fade-up" style="max-width: 800px; margin: 0 auto 6rem; padding: 0 2rem;">
+        <div class="glass card glass-glow tilt" style="padding: 4rem 3rem; text-align: center;">
+            <div class="tilt-inner">
+                <div class="section-subtitle mb-1">Make A Difference</div>
+                <h2 class="section-title playfair text-gradient" style="font-size: 2.5rem; margin-bottom: 2rem;">Join As Volunteer</h2>
+                <form action="https://formsubmit.co/contact@janmanasfoundation.co.in" method="POST" style="text-align: left; margin-top: 2rem;">
+                    <input type="hidden" name="_subject" value="New Volunteer Application!">
+                    <input type="hidden" name="_captcha" value="false">
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-bottom: 1.5rem;">
+                        <div>
+                            <label for="name" class="form-label">Full Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required placeholder="John Doe">
+                        </div>
+                        <div>
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-control" required placeholder="+91 XXXXX XXXXX">
+                        </div>
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-control" required placeholder="john@example.com">
+                    </div>
+                    <div style="margin-bottom: 2rem;">
+                        <label for="message" class="form-label">Why do you want to join & any specific skills?</label>
+                        <textarea id="message" name="message" rows="4" class="form-control" required style="resize: vertical;" placeholder="Tell us how you would like to help..."></textarea>
+                    </div>
+                    <div style="text-align: center;">
+                        <button type="submit" class="btn-primary" style="width: 100%; max-width: 300px; padding: 1rem; font-size: 1.1rem; border: none; cursor: pointer;">Submit Application</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container fade-up">
+            <div class="footer-col">
+                <a href="index.html" class="logo" style="display:block; margin-bottom: 1rem;"><img src="logo.png" alt="Jan Manas Foundation Logo"></a>
+                <p>BE 384 STREET NUMBER 7 HARI NAGAR</p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="what-we-do.html">What we do</a></li>
+                    <li><a href="media.html">Media</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>contact@janmanasfoundation.co.in</p>
+                <p>+91 935 462 7100<br>+91 931 580 8651</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Jan Manas Foundation. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
